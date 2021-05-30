@@ -26,6 +26,7 @@ const Left = styled.div`
 
 const ImageContainer = styled.div`
     height: calc(100% - 80px);
+    width: 100%;
     @media (max-width: 1200px) {
         height: 100%;
         padding: 0 24px;

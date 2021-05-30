@@ -1,4 +1,3 @@
-import './App.css';
 import CarouselContainer from './components/CarouselContainer/CarouselContainer';
 
 function App() {
