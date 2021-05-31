@@ -71,6 +71,9 @@ const Right = styled.div`
 const ContentContainer = styled.div`
     opacity: 0;
     transition: opacity 0.4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     &.fonts-loaded {
         opacity: 1;
     }
@@ -81,7 +84,7 @@ const TopTitle = styled.h1`
     text-transform: uppercase;
     font-size: 16px;
     letter-spacing: 0.4px;
-    margin: 0 0 16px 0;
+    margin: 0px 0px 16px 0px;
     max-width: 336px;
     @media (max-width: 1200px) {
         font-size: 12px;
